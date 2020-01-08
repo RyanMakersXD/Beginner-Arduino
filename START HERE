@@ -1,0 +1,18 @@
+1. Install Arduino into Breadboard
+
+2. Plug Arduino USB into Raspberry Pi
+
+3. Open Arduino IDE:
+   3a. Click raspberry icon in top-left corner of screen
+   3b. Navigate to Programming>Arduino IDE
+  
+4. Check three settings under Tools menu:
+  4a. Set "Board" to "Arduino Nano"
+  4b. Set "Processor" to either "ATmega328P" or "ATmega328P (old bootloader)"
+  4c. Set "Port" to "/dev/ttyUSBX"
+  
+5. In the Arduino IDE, go to the File menu, and select File>Examples>01 Basics>Blink
+
+6. Go to the Sketch Menu, and select "Upload"
+
+7. Verify the LED on the top of the Arduino is blinking once per second.
